@@ -37,8 +37,8 @@
 
 #-Bottom panel------
 
-69,71,90        buttons off         # Surface1
-45,40,61        buttons over        # Dark
+45,40,61        buttons off         # Dark
+69,71,90        buttons over        # Surface1
 203,166,247     buttons active      # Mauve
 
 205,214,244     playing time        # Text
@@ -49,8 +49,8 @@
 69,71,90,145    volume bg           # Surface1, alpha
 205,214,244     scroll bar          # Text
 
-69,71,90        mode off            # Surface1
-45,40,61        mode over           # Dark
+45,40,61        mode off         # Dark
+69,71,90        mode over        # Surface1
 203,166,247     mode on             # Mauve
 
 205,214,244     bottom title        # Text
