@@ -1,4 +1,4 @@
-# Tauon Music Box Theme - Catppuccin Mocha (Mauve)
+# Tauon Music Box Theme - Catppuccin Mocha (Mauve Enhanced)
 
 #-Backgrounds-----
 
@@ -14,12 +14,12 @@
 205,214,244     track line          # Text
 205,214,244     track time          # Text
 203,166,247     track index         # Mauve
-180,190,254     track artist        # Lavender
+203,166,247     track artist        # Mauve
 203,166,247     track album         # Mauve
 
-203,166,247     track playing       # Mauve
+180,190,254     track playing       # Lavender
 203,166,247     index playing       # Mauve
-203,166,247     artist playing      # Mauve
+245,194,231     artist playing      # Pink
 203,166,247     album playing       # Mauve
 203,166,247     time playing        # Mauve
 
@@ -30,15 +30,15 @@
 205,214,244     folder title        # Text
 
 45,40,61,15     playing highlight   # Dark, alpha
-203,166,247,15  select highlight    # Mauve, alpha
-245,194,231     gallery highlight   # Pink
+203,166,247,25  select highlight    # Mauve, alpha (more visible)
+203,166,247     gallery highlight   # Mauve (was pink)
 
 49,50,68        column bar background # Surface0
 
 #-Bottom panel------
 
 45,40,61        buttons off         # Dark
-69,71,90        buttons over        # Surface1
+203,166,247     buttons over        # Mauve (was surface1)
 203,166,247     buttons active      # Mauve
 
 205,214,244     playing time        # Text
@@ -47,10 +47,10 @@
 203,166,247     volume bar          # Mauve
 69,71,90,145    seek bg             # Surface1, alpha
 69,71,90,145    volume bg           # Surface1, alpha
-205,214,244     scroll bar          # Text
+203,166,247     scroll bar          # Mauve (was text)
 
-45,40,61        mode off         # Dark
-69,71,90        mode over        # Surface1
+45,40,61        mode off            # Dark
+203,166,247     mode over           # Mauve (was surface1)
 203,166,247     mode on             # Mauve
 
 205,214,244     bottom title        # Text
@@ -60,41 +60,41 @@
 30,30,46        tab active text         # Base
 205,214,244     tab text                # Text
 49,50,68        tab background          # Surface0
-69,71,90        tab over                # Surface1
+203,166,247,40  tab over                # Mauve, alpha (was surface1)
 203,166,247     tab active background   # Mauve
 
-205,214,244     music vis               # Text
+203,166,247     music vis               # Mauve (was text)
 
 49,50,68        window buttons background # Surface0
-205,214,244     window buttons on         # Text
+203,166,247     window buttons on         # Mauve (was text)
 69,71,90        window buttons icon off   # Surface1
-49,50,68        window buttons icon over  # Surface0
+203,166,247     window buttons icon over  # Mauve (was surface0)
 
 #-Menu-------------
 
 49,50,68        menu background
-88,91,112       menu highlight          # Surface2
+203,166,247,40  menu highlight          # Mauve, alpha (was surface2)
 88,91,112       menu border             # Surface2
 205,214,244     menu text               # Text
 127,132,156     menu disable text       # Overlay1
-108,112,134     menu icons              # Overlay0
+203,166,247     menu icons              # Mauve (was overlay0)
 
 #-Dialog box---------
 
 49,50,68        box background          # Surface0
-69,71,90        box border              # Surface1
+203,166,247     box border              # Mauve (was surface1)
 
 205,214,244     box title text          # Text
-166,173,200     box text label          # Subtext0
+203,166,247     box text label          # Mauve (was subtext0)
 
 205,214,244     box text normal
 186,194,222     box sub text            # Subtext1
 205,214,244     box input text
-69,71,90        box text border
+203,166,247     box text border         # Mauve (was surface1)
 
 69,71,90        box button background normal
-88,91,112       box button background highlight
-69,71,90        box button border
+203,166,247     box button background highlight  # Mauve (was surface2)
+203,166,247     box button border       # Mauve (was surface1)
 
 #-Misc--------------
 
@@ -111,6 +111,43 @@
 #-Mini Mode---------
 
 30,30,46        mini bg
-205,214,244     mini border
+203,166,247     mini border             # Mauve (was text)
 245,224,220     mini text 1             # Rosewater
 203,166,247     mini text 2             # Mauve
+
+#-Corner buttons----
+
+45,40,61        corner button off       # Dark
+203,166,247     corner button on        # Mauve
+
+#-Status text-------
+
+186,194,222     menu button normal      # Subtext1
+203,166,247     menu button hover       # Mauve
+
+#-Column colors (normal)----
+
+205,214,244     column-Title
+203,166,247     column-Artist           # Mauve
+203,166,247     column-Album            # Mauve
+186,194,222     column-Length
+186,194,222     column-Date
+
+#-Column colors (playing)----
+
+203,166,247     column+Title            # Mauve
+203,166,247     column+Artist           # Mauve
+203,166,247     column+Album            # Mauve
+203,166,247     column+Length           # Mauve
+203,166,247     column+Date             # Mauve
+
+#-Lyrics------------
+
+205,214,244     lyrics text
+203,166,247     active lyric            # Mauve
+24,24,37        lyrics panel            # Mantle
+
+#-Additional--------
+
+205,214,244     status text             # Text
+203,166,247     tb line                 # Mauve
